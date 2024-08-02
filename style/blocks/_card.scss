@@ -72,13 +72,12 @@
   height: 48px;
   width: 258px;
   text-align: center;
-  transition: background-color .3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .more-details__link:hover {
   background-color: #ff7c30;
 }
-
 
 .banner {
   line-height: 22.4px;

@@ -358,6 +358,13 @@ legend {
     font-size: 40px;
   }
 }
+@media (max-width: 721px) {
+  .results__title {
+    font-size: 24px;
+    line-height: 33.6px;
+    margin-bottom: 24px;
+  }
+}
 .products {
   display: grid;
   justify-items: center;
@@ -476,6 +483,33 @@ legend {
   z-index: 2;
 }
 
+@media (max-width: 721px) {
+  .more-details__link {
+    width: 80%;
+  }
+  .card__title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+  }
+  .price__main-value {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+  }
+  .price__sale-value {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+  }
+  .banner {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    height: 24px;
+    width: 70px;
+  }
+}
 .footer {
   background-color: var(--footer-bg);
   padding: 60px 0;
@@ -648,12 +682,11 @@ legend {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  transform: translateX(320px);
-  transition: all 0.3s ease-in-out;
+  display: none;
 }
 
 .mobile-nav-wrapper--open {
-  transform: translateX(0);
+  display: flex;
 }
 
 .mobile-nav-btn-close {

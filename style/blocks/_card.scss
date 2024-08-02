@@ -95,3 +95,34 @@
   top: 10px;
   z-index: 2;
 }
+
+@media (max-width: 721px) {
+  .more-details__link {
+    width: 80%;
+  }
+
+  .card__title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+  }
+
+  .price__main-value {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+  }
+
+  .price__sale-value {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+  }
+  .banner {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    height: 24px;
+    width: 70px;
+  }
+}

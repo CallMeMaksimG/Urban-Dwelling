@@ -1,4 +1,4 @@
-@import url("./../fonts/Lato/stylesheet.css");
+@import './../fonts/Lato/stylesheet.css';
 @import './../fonts/Korataki/stylesheet.css';
 @import './base/_base.css';
 @import './base/_vars.css';

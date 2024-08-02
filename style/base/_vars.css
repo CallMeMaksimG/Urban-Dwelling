@@ -1,0 +1,16 @@
+:root {
+  --font-main: 'Lato', sans-serif;
+  --font-title: ;
+  --font-accent: 'Inter', sans-serif;
+  --text-color: #231815;
+  --text-white: #ffffff;
+  --text-muted: #808080;
+  --text-footer: #f5f5f5;
+
+  --orange-ui: #e45302;
+
+  --dark-bg: #231815;
+  --footer-bg: #0c0c0c;
+
+  --extra-dark-bg: #000000;
+}

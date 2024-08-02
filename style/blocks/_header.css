@@ -1,0 +1,30 @@
+.header {
+  margin-bottom: 60px;
+}
+
+.header__top {
+  background: var(--dark-bg);
+}
+
+.top-list {
+  display: flex;
+  justify-content: end;
+  gap: 70px;
+  padding: 12px 0;
+}
+
+.top-list__link {
+  color: var(--text-white);
+  font-weight: 400;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.top-list__link:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 960px) {
+  .header__top {
+    display: none;
+  }
+}

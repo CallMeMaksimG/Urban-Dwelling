@@ -1,0 +1,28 @@
+.nav {
+  display: grid;
+  grid-template-columns: 2fr 7fr 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  justify-items: end;
+}
+
+.nav__btn {
+  display: none;
+  margin-left: auto;
+}
+
+@media (max-width: 1600px) {
+  .nav {
+    gap: 23px;
+  }
+}
+
+@media (max-width: 960px) {
+  .nav {
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+  }
+  .nav__btn {
+    display: block;
+  }
+}

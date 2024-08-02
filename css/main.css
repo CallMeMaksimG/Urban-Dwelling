@@ -168,8 +168,16 @@ legend {
 }
 
 @media (max-width: 960px) {
+  .header {
+    margin-bottom: 50px;
+  }
   .header__top {
     display: none;
+  }
+}
+@media (max-width: 721px) {
+  .header {
+    margin-bottom: 40px;
   }
 }
 .nav {
